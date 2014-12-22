@@ -10,7 +10,7 @@ package edu.fjnu.domain;
 public class Student {
 
 	/** 用户名 */
-	private String username;
+	private String name;
 	/** 密码 */
 	private String pwd;
 
@@ -21,17 +21,11 @@ public class Student {
 
 	public Student(String username, String password) {
 		super();
-		this.username = username;
+		this.name = username;
 		this.pwd = password;
 	}
 
-	public String getUsername() {
-		return username;
-	}
 
-	public void setUsername(String username) {
-		this.username = username;
-	}
 
 	public String getPwd() {
 		return pwd;
@@ -39,6 +33,14 @@ public class Student {
 
 	public void setPwd(String pwd) {
 		this.pwd = pwd;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
 	}
 
 
