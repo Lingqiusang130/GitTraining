@@ -12,7 +12,9 @@ public class Student {
 	/** 用户名 */
 	private String username;
 	/** 密码 */
-	private String pwd;
+	private String pwd1;
+	
+	private String age;
 
 	public Student() {
 		super();
@@ -22,7 +24,7 @@ public class Student {
 	public Student(String username, String password) {
 		super();
 		this.username = username;
-		this.pwd = password;
+		this.pwd1 = password;
 	}
 
 	public String getUsername() {
@@ -33,15 +35,21 @@ public class Student {
 		this.username = username;
 	}
 
-	public String getPwd() {
-		return pwd;
+	public String getPwd1() {
+		return pwd1;
 	}
 
-	public void setPwd(String pwd) {
-		this.pwd = pwd;
+	public void setPwd1(String pwd1) {
+		this.pwd1 = pwd1;
 	}
 
+	public String getAge() {
+		return age;
+	}
 
+	public void setAge(String age) {
+		this.age = age;
+	}
 
 
 
